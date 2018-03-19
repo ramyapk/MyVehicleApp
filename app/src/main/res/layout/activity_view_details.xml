@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.ramya.myvehicleapp.ui.activities.ViewDetailsActivity">
+
+    <TextView
+        android:id="@+id/activity_view_details_tv_vehicleID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/view_details_textSize"
+        android:layout_margin="@dimen/view_details_border" />
+
+    <TextView
+        android:id="@+id/activity_view_details_tv_vehicleName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/view_details_textSize"
+        android:layout_margin="@dimen/view_details_border" />
+
+    <TextView
+        android:id="@+id/activity_view_details_tv_vehicleType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/view_details_textSize"
+        android:layout_margin="@dimen/view_details_border" />
+
+    <TextView
+        android:id="@+id/activity_view_details_tv_manufacturer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/view_details_textSize"
+        android:layout_margin="@dimen/view_details_border" />
+
+    <TextView
+        android:id="@+id/activity_view_details_tv_vehicleColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/view_details_textSize"
+        android:layout_margin="@dimen/view_details_border" />
+
+</LinearLayout>

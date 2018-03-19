@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:orientation="vertical"
+    tools:context="com.example.ramya.myvehicleapp.ui.activities.VehicleInfoActivity">
+
+
+    <TextView
+        android:id="@+id/tv_welcome_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textSize="32sp" />
+
+    <TextView
+        android:id="@+id/tv_details_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_welcome_user"
+        android:text="@string/vehicle_details"
+        android:textSize="30sp" />
+
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/activity_vehicle_info_rcv_vehicles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_details_text"
+        android:layout_above="@+id/btn_addVehicle"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/btn_addVehicle"
+        android:layout_width="match_parent"
+        android:text="@string/add_vehicle"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content" />
+
+
+
+
+</RelativeLayout>

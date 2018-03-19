@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Vehicle App</string>
+
+    <!--Login Screen-->
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="login">Login</string>
+    <string name="signup">Not a member? Sign up here.</string>
+    <string name="inavalid_credential">Invalid email or password. Please try again.</string>
+
+    <!-- Vehicle Information Screen -->
+    <string name="vehicle_details">The details of your vehicle are : </string>
+    <string name="welcome">Welcome %1$s %2$s! </string>
+    <string name="next_vehicle">Next Vehicle</string>
+    <string name="no_vehicles">Currently there are no vehicles registered.</string>
+
+
+    <!--Sign Up Screen -->
+    <string name="enter_fname">Enter First Name</string>
+    <string name="enter_lname">Enter Last Name</string>
+    <string name="enter_vehicle_details">Enter Vehicle Details :</string>
+    <string name="vehicle_id">Enter Vehicle ID</string>
+    <string name="vehicle_name">Enter Vehicle Name</string>
+    <string name="vehicle_type">Enter Vehicle Type</string>
+    <string name="manufacturer">Enter Manufacturer</string>
+    <string name="color">Enter Vehicle Color</string>
+    <string name="register">Register</string>
+    <string name="fill_fields">Please fill all fields.</string>
+    <string name="add_vehicle">Add Vehicle</string>
+    <string name="email_hint">Enter Email</string>
+    <string name="password_hint">Enter Password</string>
+    <string name="vehicle_details_text">"The details of your vehicle are : "</string>
+    <string name="null_text"></string>
+    <string name="confirm_password">Confirm passowrd</string>
+    <string name="password_mismatch">Passwords do not match.Please confirm.</string>
+    <string name="sign_in_first">Sign in first</string>
+
+</resources>
